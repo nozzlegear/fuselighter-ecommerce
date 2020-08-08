@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Models\Identifiers.fs" />
+    <Compile Include="Models\DatabaseOptions.fs" />
+    <Compile Include="Models\PostCategory.fs" />
+    <Compile Include="Models\Post.fs" />
+    <Compile Include="Models\ProductOptions.fs" />
+    <Compile Include="Models\ProductVariant.fs" />
+    <Compile Include="Models\PartialProductVariant.fs" />
+    <Compile Include="Models\ProductCategory.fs" />
+    <Compile Include="Models\Product.fs" />
+    <Compile Include="Models\PartialProduct.fs" />
+    <Compile Include="Models\PartialPost.fs" />
+    <Compile Include="Models\StoreConfiguration.fs" />
+    <Compile Include="Models\IPostDatabase.fs" />
+    <Compile Include="Models\IProductDatabase.fs" />
+    <Compile Include="Models\IStoreConfigurationDatabase.fs" />
+    <Compile Include="StoreConfigurationDatabase.fs" />
+    <Compile Include="PostDatabase.fs" />
+    <Compile Include="ProductDatabase.fs" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

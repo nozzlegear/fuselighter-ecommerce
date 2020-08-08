@@ -1,0 +1,4 @@
+fsharp.core
+simple.migrations
+CommandLineParser
+System.Data.SqlClient

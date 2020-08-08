@@ -1,0 +1,4 @@
+fsharp.core
+taskbuilder.fs
+system.data.sqlclient
+dustytables

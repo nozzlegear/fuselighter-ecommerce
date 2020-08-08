@@ -1,0 +1,10 @@
+.paket
+paket-files
+packages
+dist
+node_modules
+bin
+obj
+*.secret
+.idea
+.vscode
